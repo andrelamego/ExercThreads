@@ -12,7 +12,7 @@ public class ThreadController extends Thread {
 		this.vetor = vetor;
 	}
 
-	private void preencher() {
+	private void percorrer() {
 		if(i % 2 == 0) {
 			
 			double tempoInicial = System.nanoTime();
@@ -45,6 +45,6 @@ public class ThreadController extends Thread {
 	
 	@Override
 	public void run() {		
-		preencher();
+		percorrer();
 	}		
 }
