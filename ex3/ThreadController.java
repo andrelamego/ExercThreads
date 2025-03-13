@@ -18,7 +18,7 @@ public class ThreadController extends Thread {
 			double tempoInicial = System.nanoTime();
 			
 			for (int x = 0; x < vetor.length; x++) {
-				//vetor[x] = (int) ((Math.random() * 100) + 1);
+				
 			}
 
 			double tempoFinal = System.nanoTime();
@@ -31,7 +31,7 @@ public class ThreadController extends Thread {
 			double tempoInicial = System.nanoTime();
 			
 			for (int x : vetor) {
-				//vetor[x] = (int) ((Math.random() * 100) + 1);
+				
 			}
 			
 			double tempoFinal = System.nanoTime();
